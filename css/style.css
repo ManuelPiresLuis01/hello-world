@@ -1,0 +1,142 @@
+/*Geral*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: white;
+    background: radial-gradient(rgb(155, 92, 92), rgb(230, 163, 163));
+}
+
+.logo {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: rgb(199, 189, 189);
+    transition: 0.5s;
+}
+
+
+
+.footer {
+    margin-top: 15px;
+    background: black;
+
+}
+
+.header header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+
+}
+
+.logo,
+nav {
+    margin: 25px;
+}
+
+nav {
+    display: flex;
+}
+
+nav ul {
+    display: flex;
+
+}
+
+nav ul li {
+    margin-left: 50px;
+    list-style-type: none;
+    display: inline-block;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: rgb(199, 189, 189);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    margin: 25px;
+    margin-left: 80px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.btn-comprar {
+    margin-left: 250px;
+}
+
+button {
+    padding: 20px;
+    border: none;
+    background: rgb(224, 87, 87);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(216, 81, 81);
+    box-shadow: 10px rgba(255, 0, 0, 0.308);
+}
+
+.texto h1 {
+    font-weight: bold;
+}
+
+.img img {
+    max-width: 100%;
+}
+
+.footer p {
+    margin-top: 15px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+
+.tete {
+    margin: 25px;
+    text-align: right;
+    align-items: right;
+    margin-right: 200px;
+    margin-top: 10px;
+}
+
+.tete li {
+    list-style-type: none;
+}
+
+h3 {
+    padding-top: 15px;
+    margin-bottom: 10px;
+}
+
+hr {
+    border: none;
+    background: #b5b5b5;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.te {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
